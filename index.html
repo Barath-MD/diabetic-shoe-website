@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strike Shoes</title>
+    <title>Strike Shoes - Smart Diabetic Foot Ulcer Detection</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -23,105 +23,83 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Diabetic Shoe</a>
+            <a class="navbar-brand" href="#">Strike Shoes</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Problem & Solution</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#technology">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#market">Market & Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="hero">
+    <section id="overview" class="hero">
         <div class="container">
-            <h1>Smart Diabetic Foot Ulcer Shoe</h1>
-            <p>A revolutionary smart shoe designed to prevent foot ulcers in diabetic patients.</p>
+            <h1>Strike Shoes: Smart Footwear for Diabetic Ulcer Detection</h1>
+            <p>Leveraging technology to improve diabetic foot health through early detection and real-time monitoring.</p>
         </div>
     </section>
 
-    <section id="about" class="container py-5">
-        <h2 class="text-center">About Us</h2>
-        <p class="text-center">We are dedicated to providing innovative solutions for diabetic patients to improve their mobility and prevent complications.</p>
-    </section>
-
-    <section id="features" class="container py-5">
-        <h2 class="text-center">Key Features</h2>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <div class="feature-icon">🦶</div>
-                <h4>Pressure Monitoring</h4>
-                <p>Detects pressure points to prevent ulcer formation.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-icon">📡</div>
-                <h4>Wireless Connectivity</h4>
-                <p>Syncs data to a mobile app for real-time monitoring.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="feature-icon">🔋</div>
-                <h4>Long Battery Life</h4>
-                <p>Efficient battery for extended usage.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="benefits" class="container py-5">
-        <h2 class="text-center">Benefits</h2>
+    <section id="problem" class="container py-5">
+        <h2 class="text-center">The Problem & Solution</h2>
+        <p>Diabetic foot ulcers significantly impact health, leading to serious complications such as infections and amputations due to delayed detection.</p>
+        <h4>Our Solution</h4>
         <ul>
-            <li>Reduces the risk of diabetic foot ulcers</li>
-            <li>Improves patient mobility and comfort</li>
-            <li>Provides real-time data for healthcare providers</li>
+            <li>Temperature, Sweat, Ph ,and odor sensors for early detection.</li>
+            <li>Continuous foot pressure monitoring.</li>
+            <li>Vibration feedback to alert users about risks.</li>
+            <li>Mobile app connectivity for real-time alerts.</li>
         </ul>
     </section>
 
-    <section id="testimonials" class="container py-5">
-        <h2 class="text-center">Testimonials</h2>
-        <blockquote class="blockquote text-center">
-            <p>"This smart shoe has transformed my life! I feel much safer and more comfortable."</p>
-            <footer class="blockquote-footer">John Doe, Diabetic Patient</footer>
-        </blockquote>
-        <blockquote class="blockquote text-center">
-            <p>"A breakthrough in diabetic care! Highly recommended for all patients."</p>
-            <footer class="blockquote-footer">Dr. Smith, Endocrinologist</footer>
-        </blockquote>
+    <section id="technology" class="container py-5">
+        <h2 class="text-center">Technology</h2>
+        <h4>Hardware</h4>
+        <ul>
+            <li>Flexi-force pressure sensors.</li>
+            <li>Odor and sweat sensors for infection detection.</li>
+            <li>ESP32-based microcontroller for real-time processing.</li>
+        </ul>
+        <h4>Software</h4>
+        <ul>
+            <li>AI/ML models for early ulcer prediction.</li>
+            <li>Cloud-based storage for health tracking.</li>
+            <li>Mobile app for alerts and doctor consultations.</li>
+        </ul>
     </section>
 
-    <section id="faq" class="container py-5">
-        <h2 class="text-center">Frequently Asked Questions</h2>
-        <div class="accordion" id="faqAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                        How does the smart shoe work?
-                    </button>
-                </h2>
-                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        The shoe monitors pressure points and sends real-time data to a connected mobile app to prevent foot ulcers.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                        How long does the battery last?
-                    </button>
-                </h2>
-                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                        The battery lasts up to 7 days on a single charge, depending on usage.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="market" class="container py-5">
+        <h2 class="text-center">Market & Business Model</h2>
+        <h4>Market Opportunity</h4>
+        <ul>
+            <li>Global diabetic population: ~537 million</li>
+            <li>Diabetic Foot Ulcer Treatment Market: $11.2 billion by 2026</li>
+            <li>Targeting hospitals, clinics, and telemedicine services</li>
+        </ul>
+        <h4>Business Model</h4>
+        <ul>
+            <li>Direct B2C sales of smart shoes.</li>
+            <li>B2B partnerships with hospitals and insurance companies.</li>
+            <li>Subscription-based AI health tracking service.</li>
+        </ul>
+    </section>
+
+    <section id="team" class="container py-5">
+        <h2 class="text-center">Our Team</h2>
+        <ul>
+            <li><strong>Barath MD</strong> - Hardware Developer</li>
+            <li><strong>Akshavikaa PV</strong> - Website Developer</li>
+            <li><strong>Arthisri B</strong> - AI Developer</li>
+            <li><strong>Dharshini S</strong> - Hardware Developer</li>
+            <li><strong>Divyadharshni V</strong> - AI Developer</li>
+        </ul>
     </section>
 
     <section id="contact" class="container py-5">
@@ -144,7 +122,7 @@
     </section>
 
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Team Strikers . All rights reserved.</p>
+        <p>&copy; 2025 Strike Shoes Project. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
